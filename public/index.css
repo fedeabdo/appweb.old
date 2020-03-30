@@ -1,0 +1,76 @@
+html, body{
+    margin: 0;
+}
+
+
+#container{
+    background-color: rgb(203, 206, 209);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px 0;
+}
+#topnav{
+    position: sticky;
+    top: 0px;
+    padding: 25px;
+    background-color: #4267b2;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    
+}#botnav{
+    position: sticky;
+    bottom: 0px;
+    width: 100%;
+    padding: 10px 0 10px 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid lightgrey;
+}
+.messagecontainer{
+    text-align: end;
+}
+.fa-camera{
+    color: snow;
+}
+.fa-commenting-o{
+    color: snow;
+}
+.sidebar{
+    flex-grow: 1;
+    font-size: 13px;
+}
+#searchcontainer{
+    flex-grow: 10;
+}
+.search{
+    border-radius: 50px;
+    text-align: center;
+    border: 5px;
+    width: 100%;
+    height: 100%;
+    font-size: xx-large;
+    background: #274780;
+    color: antiquewhite;
+}
+.search::placeholder{
+    text-align: center;
+    color: seashell;
+}
+a.fa{
+    text-decoration: none;
+}
+div.iconcontainer{
+    height: fit-content;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+.noticia{
+    background-color: white;
+    height: 60vh;
+    margin: 10px 0;
+}
