@@ -2,7 +2,8 @@
 let operator = null;
 let lastNum = 0;
 let actualNum = 0;
-let equals = false;;
+let equals = false;
+
 function calc(ev) {
     let button = ev.textContent;
 
