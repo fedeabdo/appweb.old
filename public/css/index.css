@@ -1,11 +1,14 @@
 html,body{
     box-sizing: content-box;
+    height: 100%;
 }
 .container{
+    height: 30%;
     padding-top: 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    align-content: space-between;
 }
 .container button{
     height: 5em;

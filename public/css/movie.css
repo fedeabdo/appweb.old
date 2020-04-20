@@ -1,0 +1,53 @@
+body, html{
+    box-sizing: content-box;
+    height: 100%;
+    margin: 0;
+}
+.flex-box{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-evenly;
+}
+.flex-item{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+}
+
+.active{
+    position: absolute;
+}
+#description-box{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(211, 211, 211, 0.8) ;
+    /* opacity: 0.8; */
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+.float{
+    float: left;
+    text-align: center;
+}
+.description-container{
+    width: 100%;
+    background-color: ghostwhite ;
+    border-radius: 20px;
+    padding: 30px;
+}
+#image{
+    height: 25%;
+}
+#movie-name{
+    width: 70%;
+    font-size: xx-large;
+}
+.close-button{
+    color: gray;
+    float: right;
+}
